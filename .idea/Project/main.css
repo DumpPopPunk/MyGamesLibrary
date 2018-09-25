@@ -1,0 +1,87 @@
+
+html,body{
+    margin: 0px;
+    height: 100%;
+}
+
+.header{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 100%;
+}
+
+.header a {
+    display: inline-block;
+    font-size: 17px;
+    position: relative;
+    left: 40px;
+    top: 35px;
+    margin-left: 40px;
+    margin-right: 25px;
+
+}
+
+.header a:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    height: 1px;
+    left: -50%;
+    bottom: 2px;
+    background-color:  black;
+    opacity: 0;
+    transform: scaleX(0);
+    transition: all .4s ease-in-out 0s;
+
+}
+
+
+.header a:hover:before{
+    opacity: 1;
+    left: 0;
+    transform: scaleX(1);
+
+}
+
+a:visited{
+    color: black;
+}
+a:link{
+    color: black;
+}
+
+
+#vline1{
+    display: inline-block;
+    position: relative;
+    top: 37px;
+    left: 47px;
+    height: 16px;
+    width: 2px;
+    background-color: black;
+}
+
+
+
+#title{
+    box-sizing: border-box;
+    margin-top: 200px;
+    font-size: 110px;
+    position: relative;
+    left: 9%;
+    top: 20%;
+    width: 1150px;
+}
+
+#slogan{
+    position: relative;
+    top: 25%;
+    left: 25%;
+    width: 900px;
+    font-size: 50px;
+}
+
+
