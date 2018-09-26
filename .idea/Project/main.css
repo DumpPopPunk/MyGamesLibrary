@@ -87,10 +87,42 @@ a:link{
 }
 
 
+.hlinedark{
+    position: relative;
+    left: 3%;
+    width: 1360px;
+    height: 2px;
+    background-color: #19171a;
+    margin-top: 40px;
+}
+
+.vertline1 {
+
+}
+
+.vertlie2 {
+
+}
+
+vertline3 {
+
+}
 
 
 
 
+
+
+
+
+
+
+
+* {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+}
 
 
 
