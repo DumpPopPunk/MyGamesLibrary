@@ -70,7 +70,7 @@ a:link{
 
 #title{
     box-sizing: border-box;
-    margin-top: 200px;
+    margin-top: 215px;
     font-size: 110px;
     position: relative;
     left: 9%;
@@ -80,58 +80,102 @@ a:link{
 
 #slogan{
     position: relative;
-    top: 25%;
+    top: 70px;
     left: 25%;
     width: 900px;
     font-size: 50px;
 }
 
 
-.hlinedark{
-    position: relative;
-    left: 3%;
-    width: 1360px;
-    height: 2px;
-    background-color: #19171a;
-    margin-top: 40px;
-}
 
-.vertline1 {
-    display: inline-block;
-    position: relative;
-    left: 350px;
-    height: 400px;
-    width: 2px;
-    background-color: #19171a;
-}
-
-.vertline2 {
-    display: inline-block;
-    position: relative;
-    left: 700px;
-    height: 400px;
-    width: 2px;
-    background-color: #19171a;
-}
-
-.vertline3 {
-    display: inline-block;
-    position: relative;
-    left: 1050px;
-    height: 400px;
-    width: 2px;
-    background-color: #19171a;
-}
 
 #star {
-    width: 40px;
-    position: absolute;
-    left: 30px;
-    top: 75%;
+    position: relative;
+    left: 95px;
+    top: 10px;
+    width: 60px;
 }
 
+#avatar {
+    position: relative;
+    left: 95px;
+    top: 10px;
+    width: 60px;
+}
 
+#server{
+    position: relative;
+    left: 95px;
+    top: 10px;
+    width: 60px;
+}
 
+#forecasting{
+    position: relative;
+    left: 95px;
+    top: 10px;
+    width: 60px;
+}
+
+.move {
+    position: relative;
+    left: 40%;
+    top: 150px;
+    width: 500px;
+}
+
+.picboxes {
+    position: relative;
+    top: 300px;
+}
+.rowaddon{
+    position: relative;
+    margin-left: 0px;
+    left: 75px;
+
+}
+
+.square1 {
+    width: 250px;
+    font-color: white;
+    border-radius: 10px;
+}
+
+.square2 {
+    position: relative;
+    left: 100px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.square3 {
+    position: relative;
+    left:200px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.square4 {
+    position: relative;
+    left: 300px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+h4 {
+    font-weight: bolder;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+.tiles {
+    margin: 20px;
+    color: white;
+    font-size: 17px;
+}
 
 
 
