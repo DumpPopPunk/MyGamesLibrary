@@ -1,0 +1,106 @@
+.progress{height: 25px;}
+
+.progress-bar-black {
+      background-color: black !important;
+}
+
+.progress-bar-green {
+      background-color: green !important;
+}
+
+.progress-bar-blue {
+      background-color: blue !important;
+}
+
+.progress-bar-red {
+      background-color: red !important;
+}
+
+.column{
+	display: flex;
+	position: absolute;
+	top:40%;
+	left:30%;
+	margin: -100px 0 0 -150px;
+}
+
+.pic{
+	flex: 1;
+}
+
+.data{
+	display: flex;
+	flex: 0 0 50%;
+	flex-direction: column;
+}
+
+.line-break{
+	width: 100%;
+	height: 15px; 
+}
+
+.library{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	
+}
+
+#stats{
+	flex: 50%;
+	margin: 2%;
+}
+
+#plats{
+	flex: 50%;
+	margin: 2%;
+}
+
+#searchbar{
+	float: right;
+	margin: 5px;
+}
+
+#title{
+	margin:5px;
+	float: left;
+}
+
+#menu{
+	margin:5px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+	clear: both;
+}
+
+figure figcaption{
+	text-align: center;
+}
+
+table, th, td{
+	border: 1px solid white;
+}
+
+table{
+	width: 100%;
+}
+
+th{
+	height:50px;
+}
+
+th, td{
+	text-align: center;
+}
+
+table{
+	width:90%;
+	margin: 5%;
+}

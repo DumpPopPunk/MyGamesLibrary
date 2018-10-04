@@ -30,13 +30,13 @@
 </div>
 
 
-<div class="row justify-content-around move">
-    <div class="col">
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#signup">Sign Up</button>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#login">Log In</button>
-    </div>
+<div class="movesign">
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#signup">Sign Up</button>
 </div>
 
+<div class="movelog">
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#login">Log In</button>
+</div>
 
 <div class="container">
     <div class="modal fade" id="signup" >
@@ -82,7 +82,10 @@
                             </form>
 
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-outline-success" >Submit</button>
+                            <a href="profile/userProfile.html">
+                             <button type="button" class="btn btn-outline-success" >Submit</button>
+
+                            </a>
                         </div>
                 </div>
             </div>
@@ -129,45 +132,173 @@
 <div class="container picboxes rowaddon">
     <div class="row " style="height: 250px;">
 
-        <div style="background-color: #272c4f" class="square1">
+        <div style="background-color: #19264C" class="square1">
             <img id="star" src="Pictures/star.png"/>
-            <h4>Rate Your Games</h4>
+            <h4 style="left: 20px">Rate Your Games</h4>
             <p class="tiles">See what everyone is raving about, by games rated by you!</p>
         </div>
 
-        <div style="background-color: #272c4f" class="square2">
+        <div style="background-color: #19264C" class="square2">
             <img id="avatar" src="Pictures/avatar.png"/>
-            <h4>Follow Friends</h4>
+            <h4 style="left: 40px">Follow Friends</h4>
             <p class="tiles">Check what your friends are playing, thier favorite games and other insightful information.</p>
         </div>
 
-        <div style="background-color: #7289DA" class="square3">
+        <div style="background-color: #19264C" class="square3">
             <img id="server" src="Pictures/server.png"/>
             <h4>Your Catalog, Here</h4>
             <p class="tiles">All of your games located in one place. Easily import your steam library to track your data.</p>
         </div>
 
-        <div style="background-color: #7289DA" class="square4">
+        <div style="background-color: #19264C" class="square4">
             <img id="forecasting" src="Pictures/analytics.png"/>
-            <h4>Price Forecasting</h4>
-            <p class="tiles">example text to mess with sizing and formatting please ignore. Not too sure what to put here yet whoops lol</p>
+            <h4 style="left: 20px">Price Forecasting</h4>
+            <p class="tiles">example text to mess with sizing and formatting. Not too sure what to put here yet whoops lol</p>
         </div>
+    </div>
+
+</div>
 
 
+<div class="horline"></div>
 
+<div class="container1">
+    <p id="gamesheader">Games</p>
 
+    <div class="gametiles">
+    <div class="hvrbox">
+            <a href="#">
+                <img src="Pictures/overwatch.jpg" class="hvrbox-layer_bottom"/>
 
+                <div class="hvrbox-layer_top">
+                    <div class="hvrbox-text">View Details</div>
+                </div>
+            </a>
+    </div>
+    </div>
+
+    <div class="gametiles">
+        <div class="hvrbox">
+            <a href="#">
+                <img src="Pictures/GodofWar.jpg" class="hvrbox-layer_bottom"/>
+
+                <div class="hvrbox-layer_top">
+                    <div class="hvrbox-text">View Details</div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="gametiles">
+        <div class="hvrbox">
+            <a href="#">
+                <img src="Pictures/zelda.jpg" class="hvrbox-layer_bottom"/>
+
+                <div class="hvrbox-layer_top">
+                    <div class="hvrbox-text">View Details</div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="gametiles">
+        <div class="hvrbox">
+            <a href="#">
+                <img src="Pictures/witcher.jpg" class="hvrbox-layer_bottom"/>
+
+                <div class="hvrbox-layer_top">
+                    <div class="hvrbox-text">View Details</div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="gametiles">
+        <div class="hvrbox">
+            <a href="#">
+                <img src="Pictures/spiderman.jpg" class="hvrbox-layer_bottom"/>
+
+                <div class="hvrbox-layer_top">
+                    <div class="hvrbox-text">View Details</div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="gametiles">
+        <div class="hvrbox">
+            <a href="#">
+                <img src="Pictures/skyrim.jpg" class="hvrbox-layer_bottom"/>
+
+                <div class="hvrbox-layer_top">
+                    <div class="hvrbox-text">View Details</div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="gametiles">
+        <div class="hvrbox">
+            <a href="#">
+                <img src="Pictures/titanfall2.jpg" class="hvrbox-layer_bottom"/>
+
+                <div class="hvrbox-layer_top">
+                    <div class="hvrbox-text">View Details</div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="AllGames">
+        <a style="color: white" href="#">View All Games →</a>
     </div>
 </div>
 
-<div class="container">
 
+<div class="horline2"></div>
 
+<p class="newsSection">News</p>
 
+<div class="newscontainer">
+    <h2 class="headline">Assassin’s Creed Odyssey Review</h2>
+    <p class="ass">With the release on Oct. 5, the reviews are in and it is being called Ubisofts most ambitious project yet.</p>
+    <a href="https://www.polygon.com/reviews/2018/10/1/17920288/assassins-creed-odyssey-review-ps4-xbox-one-windows-pc">
+        <p class="ass3">Continue Reading →</p>
+    </a>
+    <div class="imgcont">
+        <a href="https://www.polygon.com/reviews/2018/10/1/17920288/assassins-creed-odyssey-review-ps4-xbox-one-windows-pc">
+            <img class="assimg" src="Pictures/ass.jpg"/>
+        </a>
+    </div>
+</div>
 
+<div class="newstop">
+    <h2 class="smallheadline">Fighting For New Splinter Cell</h2>
+    <a href="https://www.pcgamer.com/ubisoft-says-its-fighting-for-resources-for-new-splinter-cell/">
+        <p class="ass1">Continue Reading →</p>
+    </a>
+    <div class="imgsplint">
+        <a href="https://www.pcgamer.com/ubisoft-says-its-fighting-for-resources-for-new-splinter-cell/">
+            <img class="assimg" src="Pictures/splinters.jpg"/>
+        </a>
+    </div>
 
 
 </div>
+
+<div class="newsbot">
+    <h2 class="smallheadline">New Super Mario Party Released</h2>
+    <a href="https://www.gameinformer.com/review/super-mario-party/same-party-new-decorations">
+        <p class="ass1">Continue Reading →</p>
+    </a>
+    <div class="imgmario">
+        <a href="https://www.gameinformer.com/review/super-mario-party/same-party-new-decorations">
+            <img class="assimg" src="Pictures/marioparty.jpg"/>
+        </a>
+    </div>
+</div>
+
+
 
 
 
