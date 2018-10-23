@@ -204,7 +204,7 @@ h4 {
     left: 70px;
     width: 1300px;
     height: 2px;
-    background-color: black;
+    background-color: #20263b;
 }
 
 
@@ -234,7 +234,7 @@ h4 {
 
 .AllGames {
     position: relative;
-    top: 350px;
+    top: 425px;
     left: 1210px;
     font-size: 17px;
     width: 200px;
@@ -293,16 +293,16 @@ h4 {
 
 .horline2 {
     position: relative;
-    top: 405px;
+    top: 455px;
     left: 70px;
     width: 1300px;
     height: 2px;
-    background-color: black;
+    background-color: #20263b;
 }
 
 .newsSection {
     position: relative;
-    top: 440px;
+    top: 490px;
     left: 70px;
     width: 300px;
     color: white;
@@ -314,7 +314,7 @@ h4 {
 .newscontainer {
     display: inline-block;
     position: relative;
-    top: 435px;
+    top: 495px;
     left: 70px;
     width: 615px;
     height: 300px;
@@ -345,7 +345,8 @@ h4 {
     width: 250px;
     margin: 10px;
     font-size: 17px;
-    color: white;
+    color: darkgrey;
+
 }
 
 .ass1 {
@@ -357,6 +358,7 @@ h4 {
     font-size: 17px;
     color: white;
 }
+
 .ass3 {
     display: block;
     position: relative;
@@ -393,7 +395,7 @@ h4 {
 .newstop {
     display: inline-block;
     position: relative;
-    top: 158px;
+    top: 218px;
     left: 130px;
     width: 615px;
     height: 140px;
@@ -416,7 +418,7 @@ h4 {
 .newsbot {
     display: inline-block;
     position: relative;
-    top: 55px;
+    top: 115px;
     left: 750px;
     width: 615px;
     height: 140px;
@@ -435,6 +437,12 @@ h4 {
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
 }
+
+
+
+
+
+
 
 
 
