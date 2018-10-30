@@ -15,6 +15,51 @@ html,body{
     background-color: white;
 }
 
+.passfield{
+    position: relative;
+    left: 71%;
+    width: 150px;
+    display: inline-block;
+    bottom: 26px;
+
+}
+
+.userfield{
+    position: relative;
+    left: 60%;
+    width: 150px;
+    display: inline-block;
+}
+
+
+.loginbutt{
+    position: relative;
+    bottom: 52px;
+    left: 89%;
+}
+#signupbutt{
+    position: absolute;
+    left: 81%;
+
+}
+.logoutbutt{
+    position: absolute;
+    left: 94%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .header a {
     display: inline-block;
     font-size: 17px;
@@ -120,21 +165,6 @@ a:link{
     width: 60px;
 }
 
-.movesign {
-    display: inline-block;
-    position: relative;
-    left: 550px;
-    top: 150px;
-    width: 200px;
-}
-
-.movelog {
-    display: inline-block;
-    position: relative;
-    left: 550px;
-    top: 150px;
-    width: 200px;
-}
 
 .picboxes {
     position: relative;
